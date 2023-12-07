@@ -8,7 +8,7 @@ Additionaly, application is using LangChain with ChatGPT to summarize users' not
 ## Installation
 Clone this repository locally and follow the below listed steps to install:
 1. **Virtual Environment [Optional]**
-   Here is a link about how to create [Virtual Environment](!https://docs.python.org/3/library/venv.html) in python. After creating the environment, activate it and navigate to the project directory. 
+   Here is a link about how to create [Virtual Environment](https://docs.python.org/3/library/venv.html) in python. After creating the environment, activate it and navigate to the project directory. 
 2. **Installation Command**
    You will find a detail requirements.txt file which contains all the requirements for this application. Use the command below to install requirements
 ```
