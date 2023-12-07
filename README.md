@@ -29,6 +29,7 @@ After migrations, the development server can be start using command listed below
 python manage.py runserver
 ```
 3. **Browsing the API Docs**
+
 Once the development server is started, use the below url for comprehensive documentation of the application
 ```
 http:127.0.0.1:8000/api/docs
@@ -70,4 +71,5 @@ All the test cases related to user and notes including models and views are writ
 python manage.py test
 ```
 **Important Note**
+
 The langchain openai features requires api key and also test will also need that api key as well. So inorder to make the application test and run smooth, key must be specify in the `.env` file.
