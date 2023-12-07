@@ -8,14 +8,15 @@ Additionaly, application is using LangChain with ChatGPT to summarize users' not
 ## Installation
 Clone this repository locally and follow the below listed steps to install:
 1. **Virtual Environment [Optional]**
-   Here is a link about how to create [Virtual Environment](https://docs.python.org/3/library/venv.html) in python. After creating the environment, activate it and navigate to the project directory. 
-2. **Installation Command**
-   You will find a detail requirements.txt file which contains all the requirements for this application. Use the command below to install requirements
+Here is a link about how to create [Virtual Environment](https://docs.python.org/3/library/venv.html) in python. After creating the environment, activate it and navigate to the project directory.
+
+3. **Installation Command**
+You will find a detail requirements.txt file which contains all the requirements for this application. Use the command below to install requirements
 ```
 pip install -r requirements.txt
 ```
 3. **Running the Application**
-   First, creating and migrating the models into Database, following commands can be used for it.
+First, creating and migrating the models into Database, following commands can be used for it.
 
 ```
 python manage.py makemigrations && python manage.py migrate
