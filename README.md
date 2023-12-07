@@ -1,7 +1,7 @@
 # assessment-uktob.ai
 
 ## Objective
-This repository contains basic and efficient back-end for a note-taking application. The application is allowing to register, update and authenticate users alongside allowing users to create, read, update, and delete (CRUD) notes.
+This repository contains basic and efficient back-end for a note-taking application. The application is allowing to register, update and authenticate users alongside allowing users to create, read, update, and delete (CRUD) notes. THe application is using `rest_framework.authtoken` for authentication. `DRF Spectacular` has been used for API documentation.
 Additionaly, application is using LangChain with ChatGPT to summarize users' notes.
 
 
@@ -53,9 +53,10 @@ DELETE /api/notes/notes/{id}/
 ```
 Above all are the methods associated with Notes API, an authenticated user can create, update, view and delete his own notes. The user will not be able to view or perform any action on other users' notes.
 
-**Schema**
+**Schema and documentation**
 ```
 GET /api/schema/
+GET /api/docs/
 ```
 This endpoint display **SCHEMA** of the API
 
